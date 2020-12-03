@@ -1,0 +1,109 @@
+a {text-decoration: none; color: black;}
+a link { color: palevioletred;}
+a:hover {color: purple;}
+a:visited {color: green;}
+ li{ display: inline; font-style: italic; font-size: 15px;}
+
+ h1{
+         background-color: #00eaeb;
+         position: relative;
+         text-align: center;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         font-size: 50px;
+         color: white;
+         border-bottom: 3px solid #333;
+ }
+
+ .menu{
+   text-align: right;
+   
+ }
+
+ *{
+margin: 0px;
+padding: 0px;
+}
+.container{
+width: 1200px;
+margin: 0 auto;
+background-color: #b4b4b5;
+}
+.container div{
+text-align: center;
+display: table;
+}
+.container div span{
+display: table-cell;
+vertical-align: middle;
+}
+
+.middle{
+width: 1200px;
+height: 500px;
+position: relative;
+}
+.middle-left{
+outline: 1px solid #9F9F9F;
+position: absolute;
+top: 10px;
+left: 10px;
+width: 700px;
+height: 200px;
+background-color: white;
+font-size: 20px; color: black; font-style: normal;
+}
+.middle-right{
+position: absolute;
+top: 10px;
+left: 720px;
+width: 380px;
+height: 500px;
+}
+.middle-right-1{
+outline: 1px solid #9F9F9F;
+width: 465px;
+height: 113px;
+background-color: #ffc7b8;
+font-style: normal; font-size: 20px; color: black;
+}
+.middle-right-2{
+outline: 1px solid #9F9F9F;
+margin-top: 10px;
+width: 465px;
+height: 113px;
+background-color: #bfaf96;
+font-style: normal; font-size: 20px; color: black;
+}
+.middle-right-3{
+outline: px solid #9F9F9F;
+margin-top: 10px;
+width: 465px;
+height: 113px;
+background-color: #e2d5c5;
+font-style: normal; font-size: 20px; color: black;
+}
+
+.middle-right-4{
+outline: 1px solid #9F9F9F;
+margin-top: 10px;
+width: 465px;
+height: 113px;
+background-color: #70fce0;
+font-style: normal; font-size: 20px; color: black;
+}
+
+.middle-left ul{
+padding: 0px;
+margin: 0px;
+}
+
+.middle-left ul li{
+list-style: none;
+float: left;
+display: inline-box;
+width: 155px;
+height: 130px;
+background: #fff5d1;
+margin: 40px 10px 6px 53px;
+font-style: normal; color: black; font-size: 20px;
+}
